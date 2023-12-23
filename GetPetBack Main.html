@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <!-- Обязательные метатеги -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <title>GET PET BACK</title>
+</head>
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="GetPetBack.ru (Главная страница).html" class="d-flex align-items-center mb-2 mb-lg-4 me-lg-auto link-body-emphasis text-decoration-none">
+                <img src="images/GetPetBackLogo.png" class="w-25 rounded-3" alt="logo">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-secondary">Главная</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Личный кабинет</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Регистрация</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Добавить объявление</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Поиск по объявлениям</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-6 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Поиск..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Поиск</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <h1 class="display-5">Найденные животные</h1>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/бультерьер.png" class="d-block w-100" alt="бультерьер">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Найден бультерьер</h5>
+              <p>Некоторый репрезентативный заполнитель для первого слайда.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/крыса.png" class="d-block w-100" alt="крыса">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Найденп крыса</h5>
+              <p>Некоторый репрезентативный заполнитель для второго слайда.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/кот.png" class="d-block w-100" alt="кот">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Найден кот</h5>
+              <p>Некоторый репрезентативный заполнитель для третьего слайда.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+
+      <h1 class="display-5">Карточки найденных животные</h1>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/курица.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">ID: <br> Вид животного: <br> Описание: <br> Номер чипа: <br> Район: <br> Дата:</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="images/курица.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">ID: <br> Вид животного: <br> Описание: <br> Номер чипа: <br> Район: <br> Дата:</p>
+        </div>
+      </div>
+
+      <h1 class="display-5">Подписка на новости</h1>
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Введите адрес электронной почты</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Подписаться</button>
+        </div>
+      </form>
+
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">GetPetBack</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; 2023 Компания, Inc</p>
+        </footer>
+      </div>
+      </html>
